@@ -8,7 +8,7 @@ import (
 const (
 	WSL_SOCK    = "wincrypt-wsl.sock"
 	CYGWIN_SOCK = "wincrypt-cygwin.sock"
-	NAMED_PIPE  = "\\\\.\\pipe\\openssh-ssh-agent"
+	NAMED_PIPE  = "\\\\.\\pipe\\wincrypt-ssh-agent"
 	APP_CYGWIN  = iota
 	APP_WSL
 	APP_WINSSH
