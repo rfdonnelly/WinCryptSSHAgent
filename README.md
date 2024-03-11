@@ -2,6 +2,25 @@
 
 ![CI](https://github.com/buptczq/WinCryptSSHAgent/workflows/Go/badge.svg)
 
+## Fork
+
+This is a fork of [buptczq/WinCryptSSHAgent](https://github.com/buptczq/WinCryptSSHAgent) with the following changes:
+
+* Added `--smart-card-logon-only` option
+
+  This option filters all certificates/keys except those that have both of the
+  following Extended/Enhanced Key Usage OIDs:
+
+  * Client Authentication (1.3.6.1.5.5.7.3.2)
+  * Smart Card Logon (1.3.6.1.4.1.311.20.2.2)
+
+* Renamed named pipe to avoid conflict with 1Password SSH Agent
+
+### Instructions
+
+1. Download the [latest release](https://github.com/rfdonnelly/WinCryptSSHAgent/releases/latest)
+2. Add a shortcut with the `--smart-card-logon-only` option to the `shell:startup` folder
+
 ## Introduction
 
 A SSH Agent based-on Windows CryptoAPI.
