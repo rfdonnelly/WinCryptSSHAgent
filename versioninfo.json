@@ -2,14 +2,14 @@
     "FixedFileInfo": {
         "FileVersion": {
             "Major": 1,
-            "Minor": 1,
-            "Patch": 9,
+            "Minor": 2,
+            "Patch": 0,
             "Build": 0
         },
         "ProductVersion": {
             "Major": 1,
-            "Minor": 1,
-            "Patch": 9,
+            "Minor": 2,
+            "Patch": 0,
             "Build": 0
         },
         "FileFlagsMask": "3f",
@@ -21,15 +21,15 @@
     "StringFileInfo": {
         "Comments": "A SSH Agent based-on Windows CryptoAPI",
         "CompanyName": "",
-        "FileDescription": "WinCrypt SSH Agent",
+        "FileDescription": "WinCrypt SSH Agent (fork:rfdonnelly/WinCryptSSHAgent)",
         "FileVersion": "",
         "InternalName": "",
         "LegalCopyright": "Copyright © 2019-2021 BUPTCZQ.",
         "LegalTrademarks": "",
         "OriginalFilename": "WinCryptSSHAgent.exe",
         "PrivateBuild": "",
-        "ProductName": "WinCrypt SSH Agent",
-        "ProductVersion": "v1.1.9",
+        "ProductName": "WinCrypt SSH Agent (fork:rfdonnelly/WinCryptSSHAgent)",
+        "ProductVersion": "v1.2.0",
         "SpecialBuild": ""
     },
     "VarFileInfo": {
